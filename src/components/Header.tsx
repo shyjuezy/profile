@@ -25,14 +25,14 @@ export default function Header() {
           </div>
           <div className="ml-4 flex-grow self-end pb-2">
             <div className="text-xl font-semibold text-gray-800">Shyju</div>
-            <div className="text-xl font-semibold text-blue-500">
+            <div className="text-xl font-semibold text-green-700">
               Viswambaran
             </div>
             <div className="text-sm text-gray-700">Sr Fullstack Developer</div>
           </div>
           <div className="ml-4 pr-8 pr-32">
             <div className="text-sm text-gray-700 mt-2">
-              www.shyjuviswambaran.com
+              www.shyjuviswambaran.link
             </div>
             <div className="text-sm text-gray-700">
               401 Honeysuckle Lane, Cecil, AL, 36013
