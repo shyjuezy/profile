@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="flex mt-8 bg-white">
-      <div className="flex-none w-16 bg-green-500 p-4 mr-2 rounded-r-lg"></div>
+      <div className="hidden md:block flex-none w-16 bg-green-500 p-4 mr-2 rounded-r-lg"></div>
       <div className="flex-grow mx-auto overflow-hidden bg-white shadow-lg rounded-l-lg">
-        <div className="flex items-center min-h-36 pr-32">
+        <div className="flex items-center min-h-36 pr-8 md:pr-32">
           <div
-            className="h-36 w-48 relative bg-amber-800 rounded-lg shadow-lg overflow-hidden"
+            className="hidden md:block  h-36 w-48 relative bg-amber-800 rounded-lg shadow-lg overflow-hidden"
             style={{ clipPath: "polygon(0 0, 100% 0, 85% 100%, 0% 100%)" }}
           >
             <div

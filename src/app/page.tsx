@@ -3,7 +3,7 @@ import MainContent from "@/components/MainContent";
 
 export default function Home() {
   return (
-    <main className="px-16 bg-white">
+    <main className="px-4 bg-white sm:px-16">
       <MainContent />
     </main>
   );
