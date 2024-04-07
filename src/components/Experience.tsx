@@ -38,7 +38,7 @@ export default function Experience() {
             </dd>
           </div>
           <div className="px-4 py-2 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
-            <dt className="text-sm font-medium text-gray-500">Position</dt>
+            <dt className="text-sm font-medium text-gray-500">Role</dt>
             <dd className="text-sm text-gray-900 sm:col-span-3">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias
               aliquid, architecto cumque doloribus dolorum ducimus harum quia
@@ -65,7 +65,7 @@ export default function Experience() {
             </dd>
           </div>
           <div className="px-4 py-2 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
-            <dt className="text-sm font-medium text-gray-500">Position</dt>
+            <dt className="text-sm font-medium text-gray-500">Role</dt>
             <dd className="text-sm text-gray-900 sm:col-span-3">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias
               aliquid, architecto cumque doloribus dolorum ducimus harum quia
@@ -95,7 +95,7 @@ export default function Experience() {
             </dd>
           </div>
           <div className="px-4 py-2 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
-            <dt className="text-sm font-medium text-gray-500">Position</dt>
+            <dt className="text-sm font-medium text-gray-500">Role</dt>
             <dd className="text-sm text-gray-900 sm:col-span-3">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias
               aliquid, architecto cumque doloribus dolorum ducimus harum quia

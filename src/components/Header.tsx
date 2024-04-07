@@ -5,7 +5,7 @@ export default function Header() {
     <header className="flex mt-8 bg-white">
       <div className="flex-none w-16 bg-green-500 p-4 mr-2 rounded-r-lg"></div>
       <div className="flex-grow mx-auto overflow-hidden bg-white shadow-lg rounded-l-lg">
-        <div className=" flex items-center min-h-36">
+        <div className="flex items-center min-h-36 pr-32">
           <div
             className="h-36 w-48 relative bg-amber-800 rounded-lg shadow-lg overflow-hidden"
             style={{ clipPath: "polygon(0 0, 100% 0, 85% 100%, 0% 100%)" }}
@@ -30,8 +30,10 @@ export default function Header() {
             </div>
             <div className="text-sm text-gray-700">Sr Fullstack Developer</div>
           </div>
-          <div className="ml-4 pr-8 pr-24">
-            <div className="text-sm text-gray-700 mt-2">www.example.com</div>
+          <div className="ml-4 pr-8 pr-32">
+            <div className="text-sm text-gray-700 mt-2">
+              www.shyjuviswambaran.com
+            </div>
             <div className="text-sm text-gray-700">
               401 Honeysuckle Lane, Cecil, AL, 36013
             </div>
