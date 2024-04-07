@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex mt-8">
-      <div className="flex-none w-16 bg-blue-500 p-4 mr-2 rounded-r-lg"></div>
+    <header className="flex mt-8 bg-white">
+      <div className="flex-none w-16 bg-green-500 p-4 mr-2 rounded-r-lg"></div>
       <div className="flex-grow mx-auto overflow-hidden bg-white shadow-lg rounded-l-lg">
         <div className=" flex items-center min-h-36">
           <div
@@ -12,10 +12,10 @@ export default function Header() {
           >
             <div
               className="absolute inset-0"
-              // style={{ transform: "scale(1.5) translateY(-25%)" }}
+              // style={{ transform: "scale(1.5) translateY(-5%)" }}
             >
               <Image
-                src="/portfolio.png"
+                src="/portfolio.jpeg"
                 alt="profile"
                 layout="fill"
                 objectFit="cover"
@@ -30,13 +30,13 @@ export default function Header() {
             </div>
             <div className="text-sm text-gray-700">Sr Fullstack Developer</div>
           </div>
-          <div className="ml-4 pr-8">
+          <div className="ml-4 pr-8 pr-24">
             <div className="text-sm text-gray-700 mt-2">www.example.com</div>
             <div className="text-sm text-gray-700">
-              123 Street Name, City, State, 0000
+              401 Honeysuckle Lane, Cecil, AL, 36013
             </div>
-            <div className="text-sm text-gray-700">000-000-0000</div>
-            <div className="text-sm text-gray-700">you@example.com</div>
+            <div className="text-sm text-gray-700">334-467-7412</div>
+            <div className="text-sm text-gray-700">shyjuezy@gmail.com</div>
           </div>
         </div>
       </div>
