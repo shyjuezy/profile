@@ -21,9 +21,25 @@ export default function Profile() {
               </span>
             </h3>
             <p className="mt-1 text-sm text-gray-500 sm:col-span-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-              aut corporis cumque dolore enim illum ipsam ipsum odit omnis porro
-              provident quasi, rerum, voluptate voluptatem.
+              A dedicated and solution-oriented Full Stack Developer with over
+              15 years of experience in designing, developing, and managing
+              complex applications and internal frameworks. Specializing in
+              Python, Javascript, Dart and Flutter. I have a proven track record
+              of leveraging full-stack expertise to build responsive and
+              scalable web applications that meet client needs and exceed
+              performance benchmarks. With a keen eye for balancing
+              functionality with aesthetics, I bring a blend of technical skill
+              and creative vision to foster innovative solutions.
+            </p>
+            <p className="mt-2 text-sm text-gray-500 sm:col-span-2">
+              I thrive in environments where I can solve challenging problems
+              and collaborate with cross-functional teams to drive projects from
+              conception to deployment. I am passionate about continuous
+              learning and staying ahead of the latest industry trends, which
+              reflects in my work through the use of cutting-edge technologies
+              and adherence to best practices in software development. My goal
+              is to contribute positively to the growth of a forward-thinking
+              company where my skills can make a significant impact.
             </p>
           </div>
           <div className="w-full max-w-xs mx-auto ">
