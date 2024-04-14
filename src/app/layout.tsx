@@ -12,8 +12,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Shyju Viswambaran Portfolio",
-  description: "Shyju Viswambaran Portfolio",
+  title: "Shyju Viswambaran - Full Stack Developer portfolio",
+  description:
+    "Discover the professional portfolio of Shyju Viswambaran, showcasing expertise in web development, project highlights, and innovative solutions.",
+  keywords: ["Shyju Viswambaran", "portfolio", "Full Stack Developer"],
 };
 
 export default function RootLayout({
