@@ -10,10 +10,7 @@ export default function Header() {
             className="hidden sm:block h-36 w-48 relative bg-white rounded-lg shadow-lg overflow-hidden"
             style={{ clipPath: "polygon(0 0, 100% 0, 85% 100%, 0% 100%)" }}
           >
-            <div
-              className="absolute inset-0"
-              // style={{ transform: "scale(1.5) translateY(-5%)" }}
-            >
+            <div className="absolute inset-0">
               <Image
                 src="/portfolio.png"
                 alt="profile"
@@ -39,6 +36,55 @@ export default function Header() {
             </div>
             <div className="text-sm text-gray-700">334-467-7412</div>
             <div className="text-sm text-gray-700">shyjuezy@gmail.com</div>
+            <div className="flex items-center flex-row gap-2 justify-end">
+              <div className="text-sm text-gray-700">
+                <a
+                  href="https://www.linkedin.com/in/shyju-viswambaran-b601897/"
+                  target="_blank"
+                >
+                  <Image
+                    src="/LI-In-Bug.png"
+                    alt="LinkedIn"
+                    width={24}
+                    height={24}
+                    className="hover:opacity-80"
+                  />
+                </a>
+              </div>
+              <div className="text-sm text-gray-700">
+                <a href="https://github.com/shyjuezy" target="_blank">
+                  <Image
+                    src="/github-mark.svg"
+                    alt="GitHub"
+                    width={24}
+                    height={24}
+                    className="hover:opacity-80"
+                  />
+                </a>
+              </div>
+              <div className="text-sm text-gray-700">
+                <a
+                  href="/shyju-viswambaran-resume.pdf"
+                  target="_blank"
+                  download
+                >
+                  <svg
+                    className="w-6 h-6 text-gray-700 hover:opacity-80"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
