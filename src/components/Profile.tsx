@@ -1,3 +1,18 @@
+"use client";
+import { motion } from "framer-motion";
+
+interface Skill {
+  name: string;
+  percentage: number;
+}
+
+const skills: Skill[] = [
+  { name: "Python", percentage: 80 },
+  { name: "AWS", percentage: 85 },
+  { name: "Javascript/React/Nextjs/Tailwindcss", percentage: 80 },
+  { name: "Dart and Flutter", percentage: 80 },
+];
+
 export default function Profile() {
   return (
     <div className="basis-1/4 shrink-0 shadow overflow-hidden bg-gray-50">
@@ -42,50 +57,38 @@ export default function Profile() {
               company where my skills can make a significant impact.
             </p>
           </div>
-          <div className="w-full max-w-xs mx-auto ">
+          <div className="w-full max-w-xs mx-auto">
             <h3 className="text-xl font-semibold mb-4 text-gray-900">SKILLS</h3>
-            <div className="mb-4">
-              <div className="text-sm font-medium text-gray-700 mb-1">
-                Python
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-300">
-                <div
-                  className="bg-teal-600 h-2.5 rounded-full"
-                  style={{ width: "80%" }}
-                ></div>
-              </div>
-            </div>
-            <div className="mb-4">
-              <div className="text-sm font-medium text-gray-700 mb-1">AWS</div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-300">
-                <div
-                  className="bg-teal-600 h-2.5 rounded-full"
-                  style={{ width: "85%" }}
-                ></div>
-              </div>
-            </div>
-            <div className="mb-4">
-              <div className="text-sm font-medium text-gray-700 mb-1">
-                Javascript/React/Nextjs/Tailwindcss
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-300">
-                <div
-                  className="bg-teal-600 h-2.5 rounded-full"
-                  style={{ width: "80%" }}
-                ></div>
-              </div>
-            </div>
-            <div className="mb-4">
-              <div className="text-sm font-medium text-gray-700 mb-1">
-                Dart and Flutter
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-300">
-                <div
-                  className="bg-teal-600 h-2.5 rounded-full"
-                  style={{ width: "60%" }}
-                ></div>
-              </div>
-            </div>
+            {skills.map((skill, index) => (
+              <motion.div
+                key={skill.name}
+                className="mb-4"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  duration: 0.5,
+                  delay: index * 0.1,
+                  ease: "easeOut",
+                }}
+                whileHover={{ y: -5 }}
+              >
+                <div className="text-sm font-medium text-gray-700 mb-1">
+                  {skill.name}
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-300">
+                  <motion.div
+                    className="bg-teal-600 h-2.5 rounded-full"
+                    initial={{ width: 0 }}
+                    animate={{ width: `${skill.percentage}%` }}
+                    transition={{
+                      duration: 0.8,
+                      delay: index * 0.1,
+                      ease: "easeInOut",
+                    }}
+                  />
+                </div>
+              </motion.div>
+            ))}
           </div>
         </dl>
       </div>

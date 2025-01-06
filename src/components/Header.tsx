@@ -10,10 +10,7 @@ export default function Header() {
             className="hidden sm:block h-36 w-48 relative bg-white rounded-lg shadow-lg overflow-hidden"
             style={{ clipPath: "polygon(0 0, 100% 0, 85% 100%, 0% 100%)" }}
           >
-            <div
-              className="absolute inset-0"
-              // style={{ transform: "scale(1.5) translateY(-5%)" }}
-            >
+            <div className="absolute inset-0">
               <Image
                 src="/portfolio.png"
                 alt="profile"
@@ -39,6 +36,33 @@ export default function Header() {
             </div>
             <div className="text-sm text-gray-700">334-467-7412</div>
             <div className="text-sm text-gray-700">shyjuezy@gmail.com</div>
+            <div className="flex items-center flex-row gap-2 justify-end">
+              <div className="text-sm text-gray-700">
+                <a
+                  href="https://www.linkedin.com/in/shyju-viswambaran-b601897/"
+                  target="_blank"
+                >
+                  <Image
+                    src="/LI-In-Bug.png"
+                    alt="LinkedIn"
+                    width={24}
+                    height={24}
+                    className="hover:opacity-80"
+                  />
+                </a>
+              </div>
+              <div className="text-sm text-gray-700">
+                <a href="https://github.com/shyjuezy" target="_blank">
+                  <Image
+                    src="/github-mark.svg"
+                    alt="GitHub"
+                    width={24}
+                    height={24}
+                    className="hover:opacity-80"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
